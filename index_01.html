@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="build/browser.min.js"></script>
+    <title>first react demo</title>
+</head>
+
+<body>
+    <div id="example"></div>
+    <div id="mapContainer"></div>
+    <script type="text/babel">
+        ReactDOM.render(
+        <h1>hello,world</h1>, document.getElementById('example')); 
+        
+        var names = ['Alice','Emily','Kate','Lily']; 
+        ReactDOM.render(
+        <div>
+        {
+            <!--names.map(function(name){
+                return <div>hello,{name}!</div>
+            })-->
+
+        }
+        </div>, 
+        document.getElementById('mapContainer'));
+    </script>
+
+</body>
+
+</html> 
